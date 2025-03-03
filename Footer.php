@@ -1,8 +1,17 @@
 <?php
-
+/**
+ * Clase Footer
+*/
 class Footer {
 
-   // Método para mostrar el pie de página
+   /**
+     * Método para mostrar el pie de página del sitio web.
+     * Este método imprime el HTML necesario para el pie de página,
+     * incluyendo los scripts de Bootstrap y un script personalizado
+     * para activar el carrusel.
+     *
+     * @return void
+    */
    public function mostrarFooter() {
         // Imprime el HTML del pie de página
         echo '<div class="footer text-center bg-dark text-white py-2">

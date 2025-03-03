@@ -2,10 +2,16 @@
 
 require_once('Connexio.php');
 require_once('Header.php');
-
+/**
+ * Clase Principal
+*/
 class Principal {
     
-    // Método para mostrar la lista de productos
+    /**
+     * Método para mostrar la lista de productos.
+     *
+     * @return void
+    */
     public function mostrarProductes() {
         // Obtiene la conexión a la base de datos
         $conexionObj = new Connexio();
